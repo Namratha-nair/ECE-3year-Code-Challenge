@@ -1,0 +1,14 @@
+# ECE-3year-Code-Challenge
+All the 3rd year ECE students will upload your code challenge in this repo.
+count=0
+while count<3:
+R=input("Enter the username: ")
+Q=input("Enter the password :")
+
+if R=="Micheal" and Q=="e3$WT89x":
+print("successfully logged in"
+else:
+count+=1
+print("Invalid username and password")
+if count=3:
+print("Account Locked")
