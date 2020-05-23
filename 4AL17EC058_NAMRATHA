@@ -1,0 +1,12 @@
+attempt=0
+while attempt<3:
+	username=input("Enter the username : ")
+	password=input("Enter the password : ")
+	if username=="Micheal" and password=="e3$WT89x":
+		print("Yoy have successfully logged in")
+		break
+	else:
+		attempt+=1
+		print("Invalid username or password\n")
+		if attempt==3:
+			print("Account locked...")
